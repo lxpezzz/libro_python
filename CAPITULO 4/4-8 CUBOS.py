@@ -1,0 +1,7 @@
+cubos = list(range(1,11))
+
+for value in range(1, 11):
+    cubo = value ** 3
+    cubos.append(cubo)
+
+print(cubos)

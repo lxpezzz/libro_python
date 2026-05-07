@@ -3,7 +3,7 @@ words_python = {
     "booleano": "Se usa para representar condiciones lógicas. True or False",
     "diccionario": "Almacena datos mediante pares: clave : valor",
     "tabulacion": "Espacio al inicio de una línea que Python usa para definir bloques de código.",
-    "sentencia if": "permite ejecutar código solo si una condición es verdadera.",
+    "sentencia if": "Permite ejecutar código solo si una condición es verdadera.",
 }
 print(f"Lista:\n{words_python['lista']}\n")
 print(f"Booleano:\n{words_python['booleano']}\n")

@@ -22,10 +22,7 @@ ciudades = {
 
 for ciudad, info_ciudad in ciudades.items():
     print(f"\nCiudad: {ciudad.title()}")
-    info_ciudad_pais = f"{info_ciudad['pais']}"
-    info_ciudad_poblacion = f"{info_ciudad['poblacion']}"
-    info_ciudad_curiosidad = f"{info_ciudad['curiosidad']}"
 
-    print(f"\tPaís: {info_ciudad_pais.title()}")
-    print(f"\tPoblacion: {info_ciudad_poblacion}")
-    print(f"\tCuriosidad: {info_ciudad_curiosidad}")
+    print(f"\tPaís: {info_ciudad['pais'].title()}")
+    print(f"\tPoblacion: {info_ciudad['poblacion'].title()}")
+    print(f"\tCuriosidad: {info_ciudad['curiosidad']}")

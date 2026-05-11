@@ -8,5 +8,4 @@ if color_alien == "verde":
 if color_alien == "rojo":
     print("\nNo has conseguido nada.")
 
-if color_alien == "amarillo":
-    print("\nHas fallado.")
+

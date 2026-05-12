@@ -21,3 +21,27 @@ name = input(prompt)
 print(f"\nHello, {name}!")
 
 # Usar int() para aceptar entrada numérica.
+# Transforma la entrada en un valor numérico
+
+# Hay que convertir primer el valor de la entrada en una representación
+# numérica.
+# Ejemplo:
+height = input("How tall are you, in cm? ")
+height = int(height)
+
+if height >= 130:
+    print("\nYou're tall enough to ride!")
+else:
+    print("\nYou'll be able to ride when you're a little older.")
+
+# El operador módulo (%)
+# Se utiliza para trabajar con valores numéricos.
+# Lo que hace es dividir un número entre otro y devolver el resto
+
+number = input("Enter a number, and I'll tell you if it's even or odd: ")
+number = int(number)
+
+if number % 2 == 0:
+    print(f"\nThe number {number} is even.")
+else:
+    print(f"\nThe number {number} is odd.")

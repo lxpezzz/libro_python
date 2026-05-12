@@ -60,3 +60,15 @@ while current_number < 10:
     if current_number % 2 == 0:
         continue
 print(current_number)
+
+# Evitar bucles infinitos
+x = 1
+while x <= 5:
+    print(x)
+    x += 1
+
+# ¡Este bucle se ejecuta eternamente! :
+x = 1
+while x <= 5:
+    print(x)
+# SI SE QUEDA ATASCADO EN UN BUCLE INFINITO HAY QUE PULSAR 'CONTROL-C'

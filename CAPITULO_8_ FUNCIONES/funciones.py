@@ -69,9 +69,8 @@ def get_formatted_name(first_name, last_name):
     full_name = f"{first_name} {last_name}"
     return full_name.title()
 
-
-# ¡Esto es un bucle infinito!
-while True:
+    # ¡Esto es un bucle infinito!
+    # while True:
     print("\nPlease tell me your name:")
     f_name = input("First name: ")
     l_name = input("Last name: ")
@@ -82,6 +81,6 @@ while True:
 
 ## Pasar una lista.
 def greet_users(names):
-    """Imprime un saludo secillo para cada usuario de la lista."""
+    """Imprime un saludo sencillo para cada usuario de la lista."""
     for name in names:
-        msg = f"Hello, {name.title()}"
+        msg = f"Hello"

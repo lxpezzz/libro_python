@@ -5,9 +5,8 @@ active = True
 while active:
     nombre = input("\n¿Cuál es tu nombre?")
     lugar = input("\nSi pudieras visitar cualquier lugar del mundo," "¿Dónde irías?")
-
-    vacaciones_sueños[nombre] = lugar
     repeat = input("\nTe gustaría que alguien mas responda a la pregunta?")
+    vacaciones_sueños[nombre] = lugar
     if repeat == "no":
         active = False
 

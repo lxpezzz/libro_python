@@ -1,7 +1,7 @@
 ###
-
+# EL IF PUEDE IR SOLO, PERO EL ELIF O ELSE TIENEN QUE TENER UN IF
 ##Para hacer una comprbación de igualdad  se hace así:
-
+####
 requested_topping = "anchovies"
 if requested_topping == "anchovies":
     print("\nHold the anchovies!\n")
